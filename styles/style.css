@@ -177,8 +177,40 @@ main section {
     margin-bottom: 13px;
 }
 
+/* why-choose section styles */
+.why-choose .choose-content {
+    text-align: center;
+}
 
+.why-choose .choose-card .c21 {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+}
 
+.why-choose .choose-card .card {
+    max-width: 500px;
+    padding: 40px;
+}
+
+#card1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#card3 {
+    margin: 50px auto 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
 
 
 
@@ -246,6 +278,10 @@ main section {
         margin-bottom: 15px;
     }
 
+    main section {
+        margin-top: 50px;
+    }
+
     .popular-tours {
         flex-direction: column;
     }
@@ -265,6 +301,15 @@ main section {
 
     .destinations .destination-images .row img {
         width: 100%;
+    }
+
+    .why-choose .choose-card .c21 {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    #card3 {
+        margin-top: 30px;
     }
 }
 
@@ -329,5 +374,14 @@ main section {
 
     .destinations .destination-images .row img {
         width: 100%;
+    }
+
+    .why-choose .choose-card .c21 {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    #card3 {
+        margin-top: 30px;
     }
 }
