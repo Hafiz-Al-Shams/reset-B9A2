@@ -18,22 +18,31 @@ body {
     color: #131318;
 }
 
-.btn-primary {
-    width: 150px;
+.common-paragraph {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary1 {
+    width: 130px;
     height: 43px;
     border-radius: 8px;
     background: var(--primary-color);
     color: #FFF;
     border: 0;
-    /* margin: 15px; */
     padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
 }
+
 
 /* header styles */
 /* nav styles */
 
 .nav {
-    margin-top: 70px;
+    margin-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
@@ -126,6 +135,58 @@ body {
     padding: 10px;
 }
 
+.btn-primary2 {
+    width: 150px;
+    height: 43px;
+    border-radius: 8px;
+    background: var(--primary-color);
+    color: #FFF;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* main styles */
+/* popular tours style */
+main section {
+    margin-top: 100px;
+}
+
+.popular-tours {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.popular-image img {
+    width: 500px;
+}
+
+/* destinations style */
+.destination-contents {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.destinations .destination-images .row {
+    height: 250px;
+    display: flex;
+    gap: 13px;
+    margin-bottom: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,12 +240,34 @@ body {
         margin-bottom: 10px;
     }
 
-    .btn-primary {
+    .btn-primary2 {
         width: 255px;
         margin-left: 13px;
         margin-bottom: 15px;
     }
+
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .popular-content {
+        padding: 20px;
+    }
+
+    .popular-image img {
+        width: 100%;
+    }
+
+    .destinations .destination-images .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .destinations .destination-images .row img {
+        width: 100%;
+    }
 }
+
 
 /* tablet */
 @media screen and (min-width: 600px) and (max-width: 992px) {
@@ -221,9 +304,30 @@ body {
         margin-bottom: 10px;
     }
 
-    .btn-primary {
+    .btn-primary2 {
         width: 255px;
         margin-left: 13px;
         margin-bottom: 15px;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .popular-content {
+        padding: 20px;
+    }
+
+    .popular-image img {
+        width: 100%;
+    }
+
+    .destinations .destination-images .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .destinations .destination-images .row img {
+        width: 100%;
     }
 }
