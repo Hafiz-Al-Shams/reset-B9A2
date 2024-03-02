@@ -79,7 +79,8 @@ body {
 }
 
 #travel,
-#home {
+#home,
+#ftravel {
     color: var(--primary-color);
 }
 
@@ -269,6 +270,37 @@ main section {
 }
 
 
+/* footer styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+.footer-div1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.footer-h2 {
+    font-weight: 800;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer .footer-small {
+    padding-bottom: 50px;
+}
 
 
 
@@ -382,6 +414,10 @@ main section {
 
     .newsletter .sill {
         transform: translateX(200px) translateY(-150px) rotate(-19.628deg);
+    }
+
+    footer {
+        max-width: 100vw;
     }
 }
 
